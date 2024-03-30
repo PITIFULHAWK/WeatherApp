@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: monospace;
+}
+.container{
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.input{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+.input button{
+    padding: 10px;
+    background-color: #0099ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+}
+.weather-box{
+    height: 500px;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.icon{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.weather{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.temperature{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.description{
+    font-size: 16px;
+}
