@@ -33,7 +33,7 @@ function getWeather(city){
         temperature.innerHTML = `${temp}°C`;
 
         const weatherDesc = data.weather[0].description;
-        description.innerHTML = `Feels Like ${weatherDesc}`;
+        description.innerHTML = `${weatherDesc}`;
     })
 }
 
